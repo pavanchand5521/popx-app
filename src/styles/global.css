@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile {
+  width: 375px;
+  min-height: 812px;
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+
+.mobile {
+  width: 375px;
+  height: 812px;
+  background: white;
+  margin: auto;
+  padding: 24px;
+  position: relative;
+}
+
+.welcome {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bottom-section {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.bottom-section h1 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.bottom-section p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #6c25ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #e8d9ff;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.primary-btn {
+  margin-top: 25px;
+}
+
+
+.agency-text {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.radio-label input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #6c25ff;
+  margin: 0;
+}
+
+.radio-label span {
+  font-size: 16px;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  color: #6c25ff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.back-btn:hover {
+  opacity: 0.75;
+}
+
+/* ── FloatingInput ─────────────────────────────── */
+.floating-input-wrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.floating-label {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #999;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  background: white;
+  padding: 0 4px;
+}
+
+.required-star {
+  color: #6c25ff;
+}
+
+.floating-input-wrapper.floating .floating-label {
+  top: 0;
+  font-size: 11px;
+  color: #6c25ff;
+  font-weight: 600;
+}
+
+.floating-input {
+  width: 100%;
+  padding: 14px 12px 10px;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+  background: transparent;
+}
+
+.floating-input:focus {
+  border-color: #6c25ff;
+}
