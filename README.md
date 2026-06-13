@@ -21,3 +21,41 @@ A pixel-perfect React implementation of the PopX mobile app UI, centered on the 
 npm install
 npm run dev
 ```
+
+Open [http://localhost:5173](http://localhost:5173)
+
+## Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deploy to Vercel
+
+```bash
+npm i -g vercel
+vercel
+```
+
+Or push to GitHub and import the repo at [vercel.com](https://vercel.com).
+
+## Project Structure
+
+```
+src/
+├── App.jsx                  # Router + mobile frame wrapper
+├── main.jsx
+├── context/
+│   └── AuthContext.jsx      # Auth state (login / signup / logout)
+├── pages/
+│   ├── LandingPage.jsx      # Screen 1
+│   ├── LoginPage.jsx        # Screen 2
+│   ├── SignupPage.jsx       # Screen 3
+│   └── ProfilePage.jsx      # Screen 4
+├── Components/
+│   └── common/
+│       └── FloatingInput.jsx
+└── styles/
+    └── global.css
+```
