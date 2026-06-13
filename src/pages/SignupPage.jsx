@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
-import FloatingInput from "../components/common/FloatingInput";
+import FloatingInput from "../Components/common/FloatingInput";
 
 // Screen 3 — Signup / Register page
 function SignupPage() {
